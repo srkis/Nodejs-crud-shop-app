@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: true })); //
 
 
 app.use(session({
-    secret: 'keyboard cat',
+    secret: 'secret!@#$',
     resave: true,
     saveUninitialized: true
 }));
