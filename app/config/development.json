@@ -1,16 +1,16 @@
 {
   "host": "http://localhost:3000",
-  "dbURI": "mongodb://srki:h4cker123@ds131743.mlab.com:31743/weca_cocoshanerca",
-  "sessionSecret": "phpftw",
+  "dbURI": "mongodb://test@ds131743.mlab.com:31743/database",
+  "sessionSecret": "sessionSecret",
   "fb": {
-    "clientID": "2190315751245087",
-    "clientSecret": "aeb1fb4066176647294c12a67206d3a5",
+    "clientID": "clientID",
+    "clientSecret": "cliendSecret",
     "callbackURL": "//localhost:3000/auth/facebook/callback",
     "profileFields": ["id","displayName", "photos"]
   },
   "twitter":{
-    "consumerKey": "h0ENDjXbEy49AiZNuq2i18BIR",
-    "consumerSecret": "Ne03EFadNP2WH9q5Ida2H8cwavLhjCsYNNPxCYHD22xAgFBd4w",
+    "consumerKey": "consumerKey",
+    "consumerSecret": "consumerSecret",
     "callbackURL": "//localhost:3000/auth/twitter/callback",
     "profileFields": ["id","displayName","photos"]
   }
